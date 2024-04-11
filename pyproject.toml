@@ -1,0 +1,25 @@
+[project]
+name = "mml2musicxml"
+version = "1.0.0"
+description = "Converts MML to MusicXML for NEUTRINO"
+readme = {
+    file = "README.md",
+    content-type = "text/markdown",
+}
+license = {
+    file = "LICENSE",
+}
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Multimedia :: Sound/Audio :: Conversion",
+    "Topic :: Multimedia :: Sound/Audio :: Sound Synthesis",
+]
+requires-python = ">=3.11"
+dependencies = [
+    "lark==1.1.9",
+    "lxml==5.1.0",
+    "pyokaka==1.0.0",
+]
